@@ -1,20 +1,16 @@
 {
-  "name": "@dangojs/arco-button-webcomponent",
+  "name": "@dangojs/arco-button-webcomponent-demo",
   "version": "0.0.0",
   "description": "vue3 生成 arco-button webcomponent",
-  "main": "dist/vue/tedir-dropzone-vue.umd.js",
-  "module": "dist/vue/tedir-dropzone-vue.es.js",
-  "unpkg": "dist/vue/tedir-dropzone-vue.umd.js",
+  "main": "dist/arco-button-web.umd.js",
+  "module": "dist/arco-button-web.es.js",
+  "unpkg": "dist/arco-button-web.umd.js",
   "exports": {
     ".": {
-      "import": "dist/vue/tedir-dropzone-vue.es.js",
-      "require": "dist/vue/tedir-dropzone-vue.umd.js"
+      "import": "dist/arco-button-web.es.js",
+      "require": "dist/arco-button-web.umd.js"
     },
-    "./web": {
-      "import": "dist/web/tedir-dropzone-web.es.js",
-      "require": "dist/web/tedir-dropzone-web.umd.js"
-    },
-    "./css": "dist/vue/style.css"
+    "./css": "dist/style.css"
   },
   "scripts": {
     "dev-vue": "vite --config vite-vue-config.ts",
@@ -23,7 +19,6 @@
     "preview-vue": "vite preview --config vite-vue-config.ts"
   },
   "files": [
-    "src/**/*.js",
     "dist"
   ],
   "repository": {
@@ -40,7 +35,8 @@
   },
   "homepage": "",
   "dependencies": {
-    "vue": "^3.2.25"
+    "vue": "^3.2.33",
+    "@arco-design/web-vue": "^2.27.1"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.3.3",
