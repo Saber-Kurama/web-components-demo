@@ -1,0 +1,58 @@
+{
+  "name": "@dangojs/arco-portal-navbar-webcomponent",
+  "version": "0.0.1",
+  "description": "vue3 生成 arco-button webcomponent",
+  "main": "dist/arco-button-web.umd.js",
+  "module": "dist/arco-button-web.es.js",
+  "unpkg": "dist/arco-button-web.umd.js",
+  "exports": {
+    ".": {
+      "import": "dist/arco-button-web.es.js",
+      "require": "dist/arco-button-web.umd.js"
+    },
+    "./css": "dist/style.css"
+  },
+  "scripts": {
+    "dev-vue": "vite --config vite-vue-config.ts",
+    "build-vue": "vue-tsc --noEmit && vite build --config vite-vue-config.ts",
+    "build-web": "vue-tsc --noEmit && vite build --config vite-web-config.ts",
+    "preview-vue": "vite preview --config vite-vue-config.ts",
+    "change": "pnpm changeset",
+    "vp": "pnpm changeset version",
+    "pub": "pnpm changeset publish"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xxx/xxx.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "peerDependencies": {
+    "@arco-design/web-vue": "^2.27.1",
+    "@dangojs/portal-navbar": "^0.0.3",
+    "vue": "^3.2.33"
+  },
+  "devDependencies": {
+    "@arco-design/web-vue": "^2.27.1",
+    "@dangojs/portal-navbar": "^0.0.4",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "@changesets/cli": "^2.21.0",
+    "less": "^4.1.2",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9",
+    "vue": "^3.2.33",
+    "vue-tsc": "^0.34.7"
+  },
+  "publishConfig": {
+    "registry": "",
+    "access": "public"
+  }
+}
