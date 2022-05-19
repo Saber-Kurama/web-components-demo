@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@arco-design/web-vue': ^2.27.1
   '@changesets/cli': ^2.21.0
-  '@dangojs/portal-navbar': ^0.0.4
+  '@dangojs/portal-navbar': file:///Users/saber/coding/mygithub/vue3-arco-pro-components/packages/portal-navbar
   '@vitejs/plugin-vue': ^2.3.3
   less: ^4.1.2
   typescript: ^4.5.4
@@ -14,7 +14,7 @@ specifiers:
 devDependencies:
   '@arco-design/web-vue': 2.27.1_vue@3.2.33
   '@changesets/cli': 2.22.0
-  '@dangojs/portal-navbar': 0.0.4_97cdf73cd38b9faccea11ca5b1d6556b
+  '@dangojs/portal-navbar': link:../../../vue3-arco-pro-components/packages/portal-navbar
   '@vitejs/plugin-vue': 2.3.3_vite@2.9.9+vue@3.2.33
   less: 4.1.2
   typescript: 4.6.4
@@ -71,6 +71,8 @@ packages:
     resolution: {integrity: sha512-FLzHmN9V3AJIrWfOpvRlZCeVg/WLdicSnTMsLur6uDj9TT8ymUlG9XxURdW/XvuygK+2CW0poOJABdA4m/YKxA==}
     engines: {node: '>=6.0.0'}
     hasBin: true
+    dependencies:
+      '@babel/types': 7.17.12
     dev: true
 
   /@babel/runtime/7.17.9:
@@ -78,6 +80,14 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       regenerator-runtime: 0.13.9
+    dev: true
+
+  /@babel/types/7.17.12:
+    resolution: {integrity: sha512-rH8i29wcZ6x9xjzI5ILHL/yZkbQnCERdHlogKuIb4PUr7do4iT8DPekrTbBLWTnRQm6U0GYABbTMSzijmEqlAg==}
+    engines: {node: '>=6.9.0'}
+    dependencies:
+      '@babel/helper-validator-identifier': 7.16.7
+      to-fast-properties: 2.0.0
     dev: true
 
   /@changesets/apply-release-plan/6.0.0:
@@ -260,16 +270,6 @@ packages:
       fs-extra: 7.0.1
       human-id: 1.0.2
       prettier: 1.19.1
-    dev: true
-
-  /@dangojs/portal-navbar/0.0.4_97cdf73cd38b9faccea11ca5b1d6556b:
-    resolution: {integrity: sha512-8vfooRJ/mJddd4AhnMAoKt8WMbuT28+Py7KEGmG/qxAWzLkZmeMNJ8b5nsyq63Xu4K3q9XHIrUEe0EnMqLiGTA==}
-    peerDependencies:
-      '@arco-design/web-vue': ^2.19.0
-      vue: ^3.2.0
-    dependencies:
-      '@arco-design/web-vue': 2.27.1_vue@3.2.33
-      vue: 3.2.33
     dev: true
 
   /@manypkg/find-root/1.1.0:
@@ -664,6 +664,11 @@ packages:
 
   /debug/3.2.7:
     resolution: {integrity: sha512-CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ==}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
     dependencies:
       ms: 2.1.3
     dev: true
@@ -714,6 +719,7 @@ packages:
   /errno/0.1.8:
     resolution: {integrity: sha512-dJ6oBr5SQ1VSd9qkk7ByRgb/1SH4JZjCHSW/mr63/QcXO9zLVxvJ6Oy13nio03rxpSnVDDjFor75SjVeZWPW/A==}
     hasBin: true
+    requiresBuild: true
     dependencies:
       prr: 1.0.1
     dev: true
@@ -730,6 +736,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [android]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -738,6 +745,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [arm64]
     os: [android]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -746,6 +754,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [darwin]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -754,6 +763,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [arm64]
     os: [darwin]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -762,6 +772,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [freebsd]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -770,6 +781,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [arm64]
     os: [freebsd]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -778,6 +790,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [ia32]
     os: [linux]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -786,6 +799,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [linux]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -794,6 +808,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [arm]
     os: [linux]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -802,6 +817,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [arm64]
     os: [linux]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -810,6 +826,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [mips64el]
     os: [linux]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -818,6 +835,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [ppc64]
     os: [linux]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -826,6 +844,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [riscv64]
     os: [linux]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -834,6 +853,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [s390x]
     os: [linux]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -842,6 +862,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [netbsd]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -850,6 +871,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [openbsd]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -858,6 +880,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [sunos]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -866,6 +889,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [ia32]
     os: [win32]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -874,6 +898,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [win32]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -882,6 +907,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [arm64]
     os: [win32]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -1010,6 +1036,7 @@ packages:
     resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -1095,6 +1122,7 @@ packages:
     resolution: {integrity: sha1-Cd/Uq50g4p6xw+gLiZA3jfnjy5w=}
     engines: {node: '>=0.10.0'}
     hasBin: true
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -1214,6 +1242,8 @@ packages:
       mime: 1.6.0
       needle: 2.9.1
       source-map: 0.6.1
+    transitivePeerDependencies:
+      - supports-color
     dev: true
 
   /lines-and-columns/1.2.4:
@@ -1264,6 +1294,7 @@ packages:
   /make-dir/2.1.0:
     resolution: {integrity: sha512-LS9X+dc8KLxXCb8dni79fLIIUA5VyZoyjSMCwTluaXA0o27cCK0bhXkpgw+sTXVpPy/lSO57ilRixqk0vDmtRA==}
     engines: {node: '>=6'}
+    requiresBuild: true
     dependencies:
       pify: 4.0.1
       semver: 5.7.1
@@ -1314,6 +1345,7 @@ packages:
     resolution: {integrity: sha512-x0Vn8spI+wuJ1O6S7gnbaQg8Pxh4NNHb7KSINmEWKiPE4RKOplvijn+NkmYmmRgP68mc70j2EbeTFRsrswaQeg==}
     engines: {node: '>=4'}
     hasBin: true
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -1351,10 +1383,13 @@ packages:
     resolution: {integrity: sha512-6R9fqJ5Zcmf+uYaFgdIHmLwNldn5HbK8L5ybn7Uz+ylX/rnOsSp1AHcvQSrCaFN+qNM1wpymHqD7mVasEOlHGQ==}
     engines: {node: '>= 4.4.x'}
     hasBin: true
+    requiresBuild: true
     dependencies:
       debug: 3.2.7
       iconv-lite: 0.4.24
       sax: 1.2.4
+    transitivePeerDependencies:
+      - supports-color
     dev: true
     optional: true
 
@@ -1778,6 +1813,11 @@ packages:
     engines: {node: '>=0.6.0'}
     dependencies:
       os-tmpdir: 1.0.2
+    dev: true
+
+  /to-fast-properties/2.0.0:
+    resolution: {integrity: sha1-3F5pjL0HkmW8c+A3doGk5Og/YW4=}
+    engines: {node: '>=4'}
     dev: true
 
   /to-regex-range/5.0.1:

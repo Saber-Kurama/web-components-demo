@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
+import vueJsx from '@vitejs/plugin-vue-jsx';
 
 // https://vitejs.dev/config/
 export default defineConfig(({ command, mode }) => {
@@ -19,6 +20,9 @@ export default defineConfig(({ command, mode }) => {
   } else {
     // command === 'build'
     return {
+      resolve: {
+        extensions: ['.ts', '.js', '.tsx', '.jsx'],
+      },
       plugins: [
         vue({
           customElement: true,
@@ -27,7 +31,8 @@ export default defineConfig(({ command, mode }) => {
               isCustomElement: tag => tag.includes('-')
             }
           }
-        })
+        }),
+        vueJsx(),
       ],
       build: {
         lib: {
