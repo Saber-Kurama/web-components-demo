@@ -1,7 +1,7 @@
 /*
  * @Author: saber
  * @Date: 2022-04-13 16:08:29
- * @LastEditTime: 2022-05-19 20:13:00
+ * @LastEditTime: 2022-05-23 11:11:15
  * @LastEditors: saber
  * @Description: 
  */
@@ -19,7 +19,7 @@ function readPackage(pkg, context) {
       }
     });
   }
-  console.log('pkg', pkg);
+  // console.log('pkg', pkg);
   return pkg;
 }
 
