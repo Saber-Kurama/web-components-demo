@@ -37,12 +37,12 @@
   "homepage": "",
   "peerDependencies": {
     "@arco-design/web-vue": "^2.27.1",
-    "@dangojs/portal-navbar": "^0.0.7",
+    "@dangojs/portal-navbar": "^0.0.8",
     "vue": "^3.2.33"
   },
   "devDependencies": {
     "@arco-design/web-vue": "^2.27.1",
-    "@dangojs/portal-navbar": "^0.0.7",
+    "@dangojs/portal-navbar": "^0.0.8",
     "@vitejs/plugin-vue": "^2.3.3",
     "@changesets/cli": "^2.21.0",
     "less": "^4.1.2",

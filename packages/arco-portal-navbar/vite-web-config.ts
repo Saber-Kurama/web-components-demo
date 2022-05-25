@@ -32,8 +32,8 @@ export default defineConfig(({ command, mode }) => {
       build: {
         lib: {
           entry: 'src/index.tsx',
-          name: 'ArcoButton',
-          fileName: (format) => `arco-button-web.${format}.js`
+          name: 'ArcoPortalNavbar',
+          fileName: (format) => `arco-portal-navbar-web.${format}.js`
         },
         outDir: 'dist/',
         /*rollupOptions: {
