@@ -7,10 +7,10 @@
   "unpkg": "dist/arco-portal-navbar-web.umd.js",
   "exports": {
     ".": {
-      "import": "dist/arco-portal-navbar-web.es.js",
-      "require": "dist/arco-portal-navbar.umd.js"
+      "import": "./dist/arco-portal-navbar-web.es.js",
+      "require": "./dist/arco-portal-navbar-web.umd.js"
     },
-    "./css": "dist/style.css"
+    "./css": "./dist/style.css"
   },
   "scripts": {
     "dev-vue": "vite --config vite-vue-config.ts",
