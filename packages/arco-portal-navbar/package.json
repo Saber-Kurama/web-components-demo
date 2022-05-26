@@ -1,6 +1,6 @@
 {
   "name": "@dangojs/arco-portal-navbar-webcomponent",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "vue3 生成 arco-portal-navbar webcomponent",
   "main": "dist/arco-portal-navbar-web.umd.js",
   "module": "dist/arco-portal-navbar-web.es.js",
@@ -17,6 +17,7 @@
     "build-vue": "vue-tsc --noEmit && vite build --config vite-vue-config.ts",
     "build-web": "vue-tsc --noEmit && vite build --config vite-web-config.ts",
     "preview-vue": "vite preview --config vite-vue-config.ts",
+    "prepublishOnly": "npm run build-web",
     "change": "pnpm changeset",
     "vp": "pnpm changeset version",
     "pub": "pnpm changeset publish"
@@ -37,12 +38,12 @@
   "homepage": "",
   "peerDependencies": {
     "@arco-design/web-vue": "^2.27.1",
-    "@dangojs/portal-navbar": "^0.0.8",
+    "@dangojs/portal-navbar": "^0.0.9",
     "vue": "^3.2.33"
   },
   "devDependencies": {
     "@arco-design/web-vue": "^2.27.1",
-    "@dangojs/portal-navbar": "^0.0.8",
+    "@dangojs/portal-navbar": "^0.0.9",
     "@vitejs/plugin-vue": "^2.3.3",
     "@changesets/cli": "^2.21.0",
     "less": "^4.1.2",
