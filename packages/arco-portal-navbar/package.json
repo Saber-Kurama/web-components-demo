@@ -1,14 +1,14 @@
 {
   "name": "@dangojs/arco-portal-navbar-webcomponent",
-  "version": "0.0.2",
-  "description": "vue3 生成 arco-button webcomponent",
-  "main": "dist/arco-button-web.umd.js",
-  "module": "dist/arco-button-web.es.js",
-  "unpkg": "dist/arco-button-web.umd.js",
+  "version": "0.0.3",
+  "description": "vue3 生成 arco-portal-navbar webcomponent",
+  "main": "dist/arco-portal-navbar-web.umd.js",
+  "module": "dist/arco-portal-navbar-web.es.js",
+  "unpkg": "dist/arco-portal-navbar-web.umd.js",
   "exports": {
     ".": {
-      "import": "dist/arco-button-web.es.js",
-      "require": "dist/arco-button-web.umd.js"
+      "import": "dist/arco-portal-navbar-web.es.js",
+      "require": "dist/arco-portal-navbar.umd.js"
     },
     "./css": "dist/style.css"
   },
