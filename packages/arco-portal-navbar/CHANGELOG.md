@@ -1,5 +1,17 @@
 # @dangojs/arco-portal-navbar-webcomponent
 
+## 0.0.9
+
+### Patch Changes
+
+- 更新 @dangojs/portal-navbar
+
+## 0.0.8
+
+### Patch Changes
+
+- 添加用户中心
+
 ## 0.0.7
 
 ### Patch Changes

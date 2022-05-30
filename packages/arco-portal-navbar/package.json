@@ -1,6 +1,6 @@
 {
   "name": "@dangojs/arco-portal-navbar-webcomponent",
-  "version": "0.0.7",
+  "version": "0.0.9",
   "description": "vue3 生成 arco-portal-navbar webcomponent",
   "main": "dist/arco-portal-navbar-web.umd.js",
   "module": "dist/arco-portal-navbar-web.es.js",
@@ -38,12 +38,12 @@
   "homepage": "",
   "peerDependencies": {
     "@arco-design/web-vue": "^2.27.1",
-    "@dangojs/portal-navbar": "^0.0.10",
+    "@dangojs/portal-navbar": "^0.0.11",
     "vue": "^3.2.33"
   },
   "devDependencies": {
     "@arco-design/web-vue": "^2.27.1",
-    "@dangojs/portal-navbar": "^0.0.10",
+    "@dangojs/portal-navbar": "^0.0.11",
     "@vitejs/plugin-vue": "^2.3.3",
     "@changesets/cli": "^2.21.0",
     "less": "^4.1.2",
