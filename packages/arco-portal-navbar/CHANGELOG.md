@@ -1,5 +1,11 @@
 # @dangojs/arco-portal-navbar-webcomponent
 
+## 0.0.11
+
+### Patch Changes
+
+- 更新版本修改 bug
+
 ## 0.0.10
 
 ### Patch Changes

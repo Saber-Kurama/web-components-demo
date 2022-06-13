@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@arco-design/web-vue': ^2.30.2
   '@changesets/cli': ^2.21.0
-  '@dangojs/portal-navbar': ^0.0.12
+  '@dangojs/portal-navbar': ^0.0.13
   '@vitejs/plugin-vue': ^2.3.3
   less: ^4.1.2
   typescript: ^4.5.4
@@ -14,7 +14,7 @@ specifiers:
 devDependencies:
   '@arco-design/web-vue': 2.30.2_vue@3.2.36
   '@changesets/cli': 2.22.0
-  '@dangojs/portal-navbar': 0.0.12_254519a8fbd5c2319dc82c837fbd6e35
+  '@dangojs/portal-navbar': 0.0.13_254519a8fbd5c2319dc82c837fbd6e35
   '@vitejs/plugin-vue': 2.3.3_vite@2.9.9+vue@3.2.36
   less: 4.1.2
   typescript: 4.6.4
@@ -272,8 +272,8 @@ packages:
       prettier: 1.19.1
     dev: true
 
-  /@dangojs/portal-navbar/0.0.12_254519a8fbd5c2319dc82c837fbd6e35:
-    resolution: {integrity: sha512-zp3IaMjZM9RCdsoRb7AuQo1ILFfNqoFTj/mtGjde+aNdpkfi7Tv4z/IlPOHtLnMm0vR019/PoP3Zi1MhftHJqg==}
+  /@dangojs/portal-navbar/0.0.13_254519a8fbd5c2319dc82c837fbd6e35:
+    resolution: {integrity: sha512-f2RZh6XOkTd5dqduyLxcYSoyNxahA1W8I4HpEXHEZaHYf9eR2A6wWuVoZ8iYBTR6KVU9uweq+XcXkJ7UDp+vIQ==}
     peerDependencies:
       '@arco-design/web-vue': ^2.19.0
       '@dangojs/digitforce-icons-vue': ^0.0.9
