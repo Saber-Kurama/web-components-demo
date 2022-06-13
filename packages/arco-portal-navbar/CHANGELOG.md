@@ -1,5 +1,11 @@
 # @dangojs/arco-portal-navbar-webcomponent
 
+## 0.0.10
+
+### Patch Changes
+
+- 更新 protal-navbar 版本,修改消息中心的样式
+
 ## 0.0.9
 
 ### Patch Changes

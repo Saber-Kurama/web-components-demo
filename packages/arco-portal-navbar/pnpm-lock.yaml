@@ -1,9 +1,9 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@arco-design/web-vue': ^2.27.1
+  '@arco-design/web-vue': ^2.30.2
   '@changesets/cli': ^2.21.0
-  '@dangojs/portal-navbar': ^0.0.11
+  '@dangojs/portal-navbar': ^0.0.12
   '@vitejs/plugin-vue': ^2.3.3
   less: ^4.1.2
   typescript: ^4.5.4
@@ -12,9 +12,9 @@ specifiers:
   vue-tsc: ^0.34.7
 
 devDependencies:
-  '@arco-design/web-vue': 2.28.0_vue@3.2.36
+  '@arco-design/web-vue': 2.30.2_vue@3.2.36
   '@changesets/cli': 2.22.0
-  '@dangojs/portal-navbar': 0.0.11_15d18d70c5ddb19c31c5bc80d647e951
+  '@dangojs/portal-navbar': 0.0.12_254519a8fbd5c2319dc82c837fbd6e35
   '@vitejs/plugin-vue': 2.3.3_vite@2.9.9+vue@3.2.36
   less: 4.1.2
   typescript: 4.6.4
@@ -30,8 +30,8 @@ packages:
       color: 3.2.1
     dev: true
 
-  /@arco-design/web-vue/2.28.0_vue@3.2.36:
-    resolution: {integrity: sha512-QWhDw+2KizCnBLgLv/n4zVECuKTA49ly8Qtan9WLVBgWPyJOBFmf/thTBgm3Fxfeu0yMzOViGyHHQ304NbBP1Q==}
+  /@arco-design/web-vue/2.30.2_vue@3.2.36:
+    resolution: {integrity: sha512-AaF2n6D5vM6pJgFxFBkspKxYQ3eW71eXLgJJQJ/BgNGmz3oDADuNCOlQ4aXiLLP2ysROySA17u8p8TdAgxNCWw==}
     peerDependencies:
       vue: ^3.1.0
     dependencies:
@@ -272,14 +272,14 @@ packages:
       prettier: 1.19.1
     dev: true
 
-  /@dangojs/portal-navbar/0.0.11_15d18d70c5ddb19c31c5bc80d647e951:
-    resolution: {integrity: sha512-yMecEkNwkh+TsCa3f8Lsu7wBvFhfEY0GFPyPw6xyurjgsYeya1sCSk5ZHiAUuUnuU9oqyDUASdKGTJ18L4Qnfw==}
+  /@dangojs/portal-navbar/0.0.12_254519a8fbd5c2319dc82c837fbd6e35:
+    resolution: {integrity: sha512-zp3IaMjZM9RCdsoRb7AuQo1ILFfNqoFTj/mtGjde+aNdpkfi7Tv4z/IlPOHtLnMm0vR019/PoP3Zi1MhftHJqg==}
     peerDependencies:
       '@arco-design/web-vue': ^2.19.0
       '@dangojs/digitforce-icons-vue': ^0.0.9
       vue: ^3.2.0
     dependencies:
-      '@arco-design/web-vue': 2.28.0_vue@3.2.36
+      '@arco-design/web-vue': 2.30.2_vue@3.2.36
       vue: 3.2.36
     dev: true
 
@@ -1692,7 +1692,7 @@ packages:
     dev: true
 
   /simple-swizzle/0.2.2:
-    resolution: {integrity: sha1-pNprY1/8zMoz9w0Xy5JZLeleVXo=}
+    resolution: {integrity: sha512-JA//kQgZtbuY83m+xT+tXJkmJncGMTFT+C+g2h2R9uxkYIrE2yy9sgmcLhCnw57/WSD+Eh3J97FPEDFnbXnDUg==}
     dependencies:
       is-arrayish: 0.3.2
     dev: true
