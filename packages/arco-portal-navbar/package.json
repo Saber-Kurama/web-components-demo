@@ -1,6 +1,6 @@
 {
   "name": "@dangojs/arco-portal-navbar-webcomponent",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "vue3 生成 arco-portal-navbar webcomponent",
   "main": "dist/arco-portal-navbar-web.umd.js",
   "module": "dist/arco-portal-navbar-web.es.js",
